@@ -1,0 +1,81 @@
+/* add your CSS here */
+html,body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Exo 2', sans-serif;
+}
+
+.container{
+	margin: 25px auto;
+	width: 350px;
+	height: 760px;
+	background-color: #96ADBC;
+	border-radius: 5px;
+	-webkit-box-shadow: 12px 13px 23px -7px rgba(0,0,0,0.68);
+	-moz-box-shadow: 12px 13px 23px -7px rgba(0,0,0,0.68);
+	box-shadow: 12px 13px 23px -7px rgba(0,0,0,0.68);
+}
+
+.pic img{	
+	width: 320px;
+	height: 200px;
+	border: 2px solid #fff;
+	border-top-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+.pic{
+	text-align: center;	
+	margin-bottom: 20px;
+}
+
+.head h1{
+	font-size: 40px;
+	font-family: inherit;
+	font-weight: 400;
+	padding-top: 15px;
+	padding-left: 15px;
+	padding-bottom: 15px;
+	border: 5px solid #D88842;
+	border-bottom: 5px solid #fff;
+}
+
+.info{
+	margin: 0 auto;
+	border: 2px solid #fff;
+	border-top-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	width: 320px;
+	height: 395px;
+}
+.info-italic{
+	margin: 10px auto;
+	width: 300px;
+	font-family: inherit;
+	font-size: 20px;
+	font-weight: 300;
+	font-style: italic;
+	color: #fff;
+}
+
+ul{
+	
+	-webkit-padding-start: 10px;
+}
+
+.info-list li{
+	list-style: none;
+	color: #fff;	
+	font-family: inherit;
+	font-weight: 500;
+	font-size:  20px;
+}
+
+.info-desc{
+	margin: 0 auto;
+	width: 300px;
+	font-family: inherit;
+	font-size: 20px;
+	font-weight: 300;
+	color: #fff;
+}
